@@ -1,0 +1,4 @@
+Matlab code for efficient source identification and parameter estimation of DNAPL-contaminated aquifer using Deterministic and Stochastic Inversion Algotirhms and Bayesian Ensemble Machine Learning (BEML)
+Firstly, the folders of ‘GA_toolbox’ and ‘SVM_toolbox’ should been added into the Matlab paths to make the algorithms run. 
+The main program for ‘homotopy-based hyperheuristic algorithm’ inversion was named 'H_Homo_hyper_EL.m' in the folder of 'HH-HA', the main program for ‘homotopy-based metropolis criterion swarm intelligence optimization’ inversion was named 'H_Homo_PPSO_EL.m' in the folder of 'H-MC-SIO' 
+The established BEML surrogate model had 16 input variables and 32 output variables, which was set as a function ‘EL_model’ in folder of 'HH-HA' and 'H-MC-SIO', and 200 training samples and 20 testing samples were listed in 'Syangben.txt'. 
